@@ -1,1 +1,1 @@
-java -jar PaletteSamplerBeta.jar
+start javaw -jar PaletteSamplerBeta.jar
