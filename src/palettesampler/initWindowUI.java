@@ -31,6 +31,10 @@ public class initWindowUI extends javax.swing.JFrame {
     
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 7628291231598458820L;
+	/**
      * Creates new form initWindowUI
      */
     public initWindowUI() {

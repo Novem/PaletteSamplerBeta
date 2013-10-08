@@ -29,7 +29,7 @@ public class PaletteColor extends Color {
     
    
 	private static final long serialVersionUID = 1L;
-	private String name;
+	private String name = "Untitled";
 
     public String getName() {
         return name;
@@ -46,5 +46,14 @@ public class PaletteColor extends Color {
     public PaletteColor(int rgb) {
         super(rgb);
     }
+
+	@Override
+	public String toString() {
+		return "PaletteColor [getName()=" + getName() + ", getRed()="
+				+ getRed() + ", getGreen()=" + getGreen() + ", getBlue()="
+				+ getBlue() + "]";
+	}
+    
+    
     
 }
